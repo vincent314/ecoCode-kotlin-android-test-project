@@ -1,14 +1,14 @@
-package com.example.ecocodetestkotlin
+package com.example.creedengotestkotlin
 
-import android.location.Location  // Issue {Optimized API: Fused Location}
+import android.bluetooth.BluetoothAdapter // ISSUE {Optimized API: Bluetooth Low-Energy}
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 
-class FusedLocationIssueCheck: AppCompatActivity() {
+class BLEIssueCheck: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
         super.onCreate(savedInstanceState, persistentState)
-        var location: Location?
+        var bluetoothAdapter: BluetoothAdapter?
     }
 }

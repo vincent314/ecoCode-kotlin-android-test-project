@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ecocodetestkotlin"
+    namespace = "com.example.creedengotestkotlin"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.ecocodetestkotlin"
+        applicationId = "com.example.creedengotestkotlin"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

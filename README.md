@@ -4,12 +4,12 @@ This project aims to demonstrate how to integrate plugin-sonarqube with android 
 
 ## Initialization
 
-Before starting, you have to run a sonarqube instance with the ecoCode Android plugin running. Please follow the documentation: https://github.com/green-code-initiative/ecoCode-kotlin-android/blob/main/README.md.
+Before starting, you have to run a sonarqube instance with the creedengo Android plugin running. Please follow the documentation: https://github.com/green-code-initiative/creedengo-kotlin-android/blob/main/README.md.
 
 On the deployed SonarQube instance, configure a project with the following properties:
 
-- Project Key: ecoCode
-- Project name: ecoCode
+- Project Key: creedengo
+- Project name: creedengo
 - Save the project login key somewhere
 
 Update the [gradle.properties](gradle.properties) file with the project login key:
@@ -18,8 +18,8 @@ Update the [gradle.properties](gradle.properties) file with the project login ke
 ```yaml
 # Sonar
 systemProp.sonar.host.url=http://localhost:9000
-systemProp.sonar.projectKey=ecoCode
-systemProp.sonar.projectName=ecoCode
+systemProp.sonar.projectKey=creedengo
+systemProp.sonar.projectName=creedengo
 
 #----- Token generated
 systemProp.sonar.login={INSERT_YOUR_TOKEN_HERE}
@@ -31,7 +31,7 @@ systemProp.sonar.login={INSERT_YOUR_TOKEN_HERE}
 ./gradlew sonarqube --scan
 ```
 
-Update the projectKey if you do not use ecoCode as you project name in SonarQube.
+Update the projectKey if you do not use creedengo as you project name in SonarQube.
 
 ## From IDE
 

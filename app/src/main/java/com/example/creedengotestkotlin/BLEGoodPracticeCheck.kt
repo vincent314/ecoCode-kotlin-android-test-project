@@ -1,4 +1,4 @@
-package com.example.ecocodetestkotlin
+package com.example.creedengotestkotlin
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.le.BluetoothLeAdvertiser // GOOD_PRACTICE {Optimized API: Bluetooth Low-Energy}
